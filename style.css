@@ -1,0 +1,124 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family= Sriracha & display=swap');
+
+body{
+    size: 100vh;
+    margin: 0px;
+    font-family:'Sriracha',cursive;
+    
+
+}
+
+header{
+    background-color: black;
+    color: white;
+    font-family: 'Passion One';
+    font-weight:bold;
+    
+    font-size: 5vw;
+    text-align: center;
+    height: auto;
+    
+    margin: 0px;
+    padding-bottom: 5px;
+
+
+}
+
+header>h1{
+    margin: 0px;
+    padding-top: 50px;
+
+
+}
+header>p{
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    margin-top: 0px ;
+    margin: 0px;
+    padding-bottom: 50px;
+
+}
+
+header>p>a{
+    text-decoration: none;
+    color: currentColor;
+    font-weight: bold;
+
+}
+article{
+    font-size: 3.5vw;
+    margin:30px;
+    padding-top: 1px;
+    font-style:oblique ;
+    font-weight:700;
+    font-variant: normal;
+    line-height: 2em;
+    
+}
+
+article>p{
+    margin:0px;
+}
+
+.img{
+    
+    
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 27px;
+    padding-bottom: 27px;
+
+}
+
+#flor{
+    background-image:url(imagens/background001.jpg) ;
+    background-position: right ;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#carta{
+    background-image: url(imagens/background002.jpg) ;
+    background-position: top left;
+}
+
+
+
+.textoimg{
+    color:white;
+    background-color: rgba(0, 0, 0, 0.493);
+    width:50%;
+    padding-left:5px;
+    
+    
+
+}
+
+
+footer{
+    text-align: center;
+    font-family: Verdana;
+    background-color: black;
+    color: white;
+    padding: 7px;
+    font-size: 17px;
+    font-weight: lighter;
+    margin-top: 150px;
+
+}
+footer>a{
+    text-decoration: none;
+    color: currentColor;
+
+
+
+}
+a:hover{
+    text-decoration: underline;
+
+}
